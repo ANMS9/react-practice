@@ -21,18 +21,34 @@ npm i webpack --save-dev
 npm i webpack-cli --save-dev
 ```
 
-###Bable
+### Bable
 ```
 npm i babel-core babel-loader babel-preset-env --save-dev
 ```
 
-###React
+### React
 ```
 npm i react react-dom --save-dev
 npm i babel-preset-react --save-dev
 ```
 
-###HTML
+### HTML
 ```
 npm i html-webpack-plugin html-loader --save-dev
+```
+
+### CSS
+```
+npm i mini-css-extract-plugin css-loader --save-dev
+```
+
+### SASS
+```
+npm install sass-loader node-sass webpack --save-dev
+npm install style-loader css-loader --save-dev
+```
+
+### Dev Server
+```
+npm i webpack-dev-server --save-dev
 ```
