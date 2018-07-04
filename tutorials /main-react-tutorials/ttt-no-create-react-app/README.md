@@ -55,5 +55,7 @@ npm i webpack-dev-server --save-dev
 
 ### ESLint
 ``` 
-npm i  eslint --save-dev
+npm i eslint --save-dev
+npm i babel-eslint --save-dev
 ./node_modules/.bin/eslint --init
+```
