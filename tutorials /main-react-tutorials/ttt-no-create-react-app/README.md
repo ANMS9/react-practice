@@ -52,3 +52,8 @@ npm i style-loader css-loader --save-dev
 ```
 npm i webpack-dev-server --save-dev
 ```
+
+### ESLint
+``` 
+npm i  eslint --save-dev
+./node_modules/.bin/eslint --init
