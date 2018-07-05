@@ -59,3 +59,19 @@ npm i eslint --save-dev
 npm i babel-eslint --save-dev
 ./node_modules/.bin/eslint --init
 ```
+
+## Run project dev version
+```
+npm run dev 
+```
+
+## Run project prod version
+```
+npm run build
+```
+
+## ESLint
+```
+npm run lint
+```
+
