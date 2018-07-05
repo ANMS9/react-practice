@@ -60,6 +60,11 @@ npm i babel-eslint --save-dev
 ./node_modules/.bin/eslint --init
 ```
 
+### Typescript
+```
+npm i react react-dom @types/react @types/react-dom
+```
+
 ## Run project dev version
 ```
 npm run dev 
