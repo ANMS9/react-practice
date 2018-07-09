@@ -7,7 +7,7 @@
     "lint": "eslint . --ext .js --ext .ts --ext .tsx; exit 0",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server",
+    "start": "npm run lint && npm run dev && webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
