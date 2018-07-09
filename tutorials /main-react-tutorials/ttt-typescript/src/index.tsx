@@ -2,17 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 
-//const Square = (<any>) => {
-class Square extends React.Component<any, any>{
-  render(){
-    return (
-      // Whenever this.setState is called, an update to component is
-      // scheduled, causing React
-      <button className="square" onClick={this.props.onClick}>
-        {this.props.value}
-      </button>
-    );
-  }
+
+// Example of using a function and not an object
+const Square = (props) => {
+//class Square extends React.Component<any, any>{
+//  render(){
+  return (
+    // Whenever this.setState is called, an update to component is
+    // scheduled, causing React
+    <button className="square" onClick={props.onClick}>
+      {props.value}
+    </button>
+  );
+//  }
 };
 
 class Board extends React.Component<any, any> {
